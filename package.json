@@ -5,6 +5,6 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
-    "@stream-io/video-node": "^1.0.0"
+    "@stream-io/node-sdk": "^0.4.26"
   }
 }
