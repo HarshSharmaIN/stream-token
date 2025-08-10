@@ -1,0 +1,10 @@
+{
+  "name": "stream-token-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@stream-io/video-node": "^1.0.0"
+  }
+}
