@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "STREAM_API_KEY": "@stream_api_key",
+    "STREAM_API_SECRET": "@stream_api_secret"
+  }
+}
