@@ -1,4 +1,4 @@
-import { StreamVideoServerClient } from '@stream-io/video-node';
+import { StreamVideoServerClient } from '@stream-io/node-sdk';
 
 // Initialize the server client with API key + secret
 const serverClient = new StreamVideoServerClient({
