@@ -1,11 +1,15 @@
 // index.js
 import express from 'express';
 import bodyParser from 'body-parser';
+import cors from 'cors';
 import { StreamVideoServerClient } from '@stream-io/node-sdk';
 import dotenv from 'dotenv';
 
 dotenv.config();
 const app = express();
+
+// Enable CORS
+app.use(cors());
 app.use(bodyParser.json());
 
 app.post('/token', async (req, res) => {
