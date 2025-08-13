@@ -1,12 +1,9 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "api/get-stream-token.js",
-      "use": "@vercel/node"
-    }
+    { "src": "index.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/api/get-stream-token", "dest": "api/get-stream-token.js" }
+    { "src": "/(.*)", "dest": "index.js" }
   ]
 }
