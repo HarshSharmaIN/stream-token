@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/token.js",
+      "src": "api/get-stream-token.js",
       "use": "@vercel/node"
     }
   ],
